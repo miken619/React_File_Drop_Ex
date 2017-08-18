@@ -25,7 +25,7 @@ export default class App extends Component {
                     <h2>Dropped files</h2>
                     <ul>
                         {
-                            this.state.files.map(f => <li>{f.name} - {f.size} bytes</li>)
+                            this.state.files.map((f, i) => <li key={i}>{f.name} - {f.size} bytes</li>)
                         }
                     </ul>
                 </aside>
