@@ -23,6 +23,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-dropzone": "^4.0.1",
+    "request": "^2.81.0",
+    "superagent": "^3.5.2",
     "webpack": "^3.5.5"
   }
 }
