@@ -54,7 +54,7 @@ export default class App extends Component {
                     {this.state.uploadedFileCloudinaryUrl === '' ? null :
                         <div>
                             <p>{this.state.uploadedFile.name}</p>
-                            <a href={this.state.uploadedFileCloudinaryUrl} download><img src={this.state.uploadedFileCloudinaryUrl} /></a>
+                            <a href={this.state.uploadedFileCloudinaryUrl} download><img src={this.state.uploadedFileCloudinaryUrl} />download</a>
                         </div>}
                 </div>
             </section>
